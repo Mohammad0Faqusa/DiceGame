@@ -67,6 +67,7 @@ holdButton.addEventListener("click", function () {
         currentPlayer.style.backgroundColor = "green";
         currentPlayerName.textContent = "player " + (count + 1) + " win ! ";
     }
+    dice.classList.add("hidden");
     playerToggle();
 });
 
